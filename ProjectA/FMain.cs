@@ -41,6 +41,7 @@ namespace ProjectA
         private void Form1_Load(object sender, EventArgs e)
         {
             DataGridViewMovies.DataSource = masterMovieList;
+
             DataGridViewMovies.Columns["Id"].Visible = false;
             DataGridViewMovies.Columns["Genre"].Visible = false;
             DataGridViewMovies.Columns["TotalEarned"].Visible = false;

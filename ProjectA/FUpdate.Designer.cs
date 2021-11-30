@@ -163,6 +163,7 @@ namespace ProjectA
             this.btnClear.TabIndex = 16;
             this.btnClear.Text = "Clear";
             this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
             // btnUpdate
             // 
@@ -172,6 +173,7 @@ namespace ProjectA
             this.btnUpdate.TabIndex = 15;
             this.btnUpdate.Text = "Update";
             this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // btnFind
             // 
@@ -181,8 +183,9 @@ namespace ProjectA
             this.btnFind.TabIndex = 30;
             this.btnFind.Text = "Find";
             this.btnFind.UseVisualStyleBackColor = true;
+            this.btnFind.Click += new System.EventHandler(this.btnFind_Click);
             // 
-            // Form1
+            // FUpdate
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -203,7 +206,7 @@ namespace ProjectA
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.btnUpdate);
-            this.Name = "Form1";
+            this.Name = "FUpdate";
             this.Text = "Update a Movie";
             this.ResumeLayout(false);
             this.PerformLayout();
